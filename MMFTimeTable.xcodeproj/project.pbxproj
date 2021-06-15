@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01284BC96FFA12E08C838C3A /* Pods_MMFTimeTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1C657F0E788CD71994B2C1 /* Pods_MMFTimeTable.framework */; };
+		0410CDFF2644029600EE5558 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0410CDFE2644029600EE5558 /* Localizable.strings */; };
+		043FD77E2664324D00E922C3 /* BroadcastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FD77D2664324D00E922C3 /* BroadcastViewController.swift */; };
+		043FD7802664326000E922C3 /* BroadcastPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043FD77F2664326000E922C3 /* BroadcastPresenter.swift */; };
+		0445A2722644270D00EDF241 /* TimeTableGroupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445A2712644270D00EDF241 /* TimeTableGroupPresenter.swift */; };
+		0445A2762644271B00EDF241 /* TimeTableGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445A2752644271B00EDF241 /* TimeTableGroupViewController.swift */; };
+		044F1C21266012B700343127 /* TimeTableCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F1C20266012B700343127 /* TimeTableCollectionCell.swift */; };
+		044F1C27266021A600343127 /* Array + Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F1C26266021A600343127 /* Array + Sugar.swift */; };
+		044F1C2A26603BC800343127 /* FireBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F1C2926603BC800343127 /* FireBaseManager.swift */; };
+		045ED722265D7FD6000E3F3D /* TimeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045ED721265D7FD6000E3F3D /* TimeTableCell.swift */; };
+		04A1C92C2661459700D1E8AB /* FirebaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1C92B2661459700D1E8AB /* FirebaseModel.swift */; };
+		04A1C92F26618EC800D1E8AB /* TimeTableGroupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A1C92E26618EC800D1E8AB /* TimeTableGroupModel.swift */; };
+		FB68973D25E6EEAF00D5DED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB68973C25E6EEAF00D5DED1 /* AppDelegate.swift */; };
+		FB68973F25E6EEAF00D5DED1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB68973E25E6EEAF00D5DED1 /* SceneDelegate.swift */; };
+		FB68974125E6EEAF00D5DED1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB68974025E6EEAF00D5DED1 /* LoginViewController.swift */; };
+		FB68974625E6EEB000D5DED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB68974525E6EEB000D5DED1 /* Assets.xcassets */; };
+		FB68974925E6EEB000D5DED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB68974725E6EEB000D5DED1 /* LaunchScreen.storyboard */; };
+		FBD7423A262E100500C03198 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBD74239262E100500C03198 /* GoogleService-Info.plist */; };
+		FBD74280262E141500C03198 /* LoginViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD7427F262E141500C03198 /* LoginViewPresenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0410CDFE2644029600EE5558 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		043FD77D2664324D00E922C3 /* BroadcastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastViewController.swift; sourceTree = "<group>"; };
+		043FD77F2664326000E922C3 /* BroadcastPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastPresenter.swift; sourceTree = "<group>"; };
+		0445A2712644270D00EDF241 /* TimeTableGroupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableGroupPresenter.swift; sourceTree = "<group>"; };
+		0445A2752644271B00EDF241 /* TimeTableGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableGroupViewController.swift; sourceTree = "<group>"; };
+		044F1C20266012B700343127 /* TimeTableCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableCollectionCell.swift; sourceTree = "<group>"; };
+		044F1C26266021A600343127 /* Array + Sugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array + Sugar.swift"; sourceTree = "<group>"; };
+		044F1C2926603BC800343127 /* FireBaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireBaseManager.swift; sourceTree = "<group>"; };
+		045ED721265D7FD6000E3F3D /* TimeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableCell.swift; sourceTree = "<group>"; };
+		04A1C92B2661459700D1E8AB /* FirebaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseModel.swift; sourceTree = "<group>"; };
+		04A1C92E26618EC800D1E8AB /* TimeTableGroupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeTableGroupModel.swift; sourceTree = "<group>"; };
+		5D806FB9D29EDC42E910C8FE /* Pods-MMFTimeTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMFTimeTable.debug.xcconfig"; path = "Target Support Files/Pods-MMFTimeTable/Pods-MMFTimeTable.debug.xcconfig"; sourceTree = "<group>"; };
+		AE1C657F0E788CD71994B2C1 /* Pods_MMFTimeTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMFTimeTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87A740670CCFB41314760A7 /* Pods-MMFTimeTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMFTimeTable.release.xcconfig"; path = "Target Support Files/Pods-MMFTimeTable/Pods-MMFTimeTable.release.xcconfig"; sourceTree = "<group>"; };
+		FB68973925E6EEAF00D5DED1 /* MMFTimeTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMFTimeTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB68973C25E6EEAF00D5DED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB68973E25E6EEAF00D5DED1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FB68974025E6EEAF00D5DED1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FB68974525E6EEB000D5DED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB68974825E6EEB000D5DED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB68974A25E6EEB000D5DED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBD74239262E100500C03198 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FBD7427F262E141500C03198 /* LoginViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewPresenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB68973625E6EEAF00D5DED1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01284BC96FFA12E08C838C3A /* Pods_MMFTimeTable.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0410CDFD2644027700EE5558 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				044F1C242660218400343127 /* Core */,
+				0410CDFE2644029600EE5558 /* Localizable.strings */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		043FD77C266431FF00E922C3 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				043FD77D2664324D00E922C3 /* BroadcastViewController.swift */,
+				043FD77F2664326000E922C3 /* BroadcastPresenter.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		0445A26F264426C700EDF241 /* TimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				0445A270264426D400EDF241 /* TimeTableGroup */,
+				FBD7427E262E13EA00C03198 /* LoginScreen */,
+			);
+			path = TimeTable;
+			sourceTree = "<group>";
+		};
+		0445A270264426D400EDF241 /* TimeTableGroup */ = {
+			isa = PBXGroup;
+			children = (
+				04A1C92D26618EAA00D1E8AB /* Models */,
+				045ED720265D7FB2000E3F3D /* Views */,
+				0445A2712644270D00EDF241 /* TimeTableGroupPresenter.swift */,
+				0445A2752644271B00EDF241 /* TimeTableGroupViewController.swift */,
+			);
+			path = TimeTableGroup;
+			sourceTree = "<group>";
+		};
+		044F1C242660218400343127 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				044F1C252660218A00343127 /* Extensions */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		044F1C252660218A00343127 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				044F1C26266021A600343127 /* Array + Sugar.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		044F1C2826603B8F00343127 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				044F1C2926603BC800343127 /* FireBaseManager.swift */,
+				04A1C92B2661459700D1E8AB /* FirebaseModel.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		045ED720265D7FB2000E3F3D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				045ED721265D7FD6000E3F3D /* TimeTableCell.swift */,
+				044F1C20266012B700343127 /* TimeTableCollectionCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04A1C92D26618EAA00D1E8AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04A1C92E26618EC800D1E8AB /* TimeTableGroupModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		310D6E0FA2BC3EDF0E68DA26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE1C657F0E788CD71994B2C1 /* Pods_MMFTimeTable.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		795835E4F8E93728904B31E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D806FB9D29EDC42E910C8FE /* Pods-MMFTimeTable.debug.xcconfig */,
+				D87A740670CCFB41314760A7 /* Pods-MMFTimeTable.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB68973025E6EEAF00D5DED1 = {
+			isa = PBXGroup;
+			children = (
+				FB68973B25E6EEAF00D5DED1 /* MMFTimeTable */,
+				FB68973A25E6EEAF00D5DED1 /* Products */,
+				795835E4F8E93728904B31E0 /* Pods */,
+				310D6E0FA2BC3EDF0E68DA26 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FB68973A25E6EEAF00D5DED1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB68973925E6EEAF00D5DED1 /* MMFTimeTable.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB68973B25E6EEAF00D5DED1 /* MMFTimeTable */ = {
+			isa = PBXGroup;
+			children = (
+				0410CDFD2644027700EE5558 /* SupportFiles */,
+				FBD74292262E19DB00C03198 /* BuisnessLogic */,
+				FBD74239262E100500C03198 /* GoogleService-Info.plist */,
+				FB68973C25E6EEAF00D5DED1 /* AppDelegate.swift */,
+				FB68973E25E6EEAF00D5DED1 /* SceneDelegate.swift */,
+				FB68974525E6EEB000D5DED1 /* Assets.xcassets */,
+				FB68974725E6EEB000D5DED1 /* LaunchScreen.storyboard */,
+				FB68974A25E6EEB000D5DED1 /* Info.plist */,
+			);
+			path = MMFTimeTable;
+			sourceTree = "<group>";
+		};
+		FBD7427D262E13CB00C03198 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				043FD77C266431FF00E922C3 /* Chat */,
+				0445A26F264426C700EDF241 /* TimeTable */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		FBD7427E262E13EA00C03198 /* LoginScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FB68974025E6EEAF00D5DED1 /* LoginViewController.swift */,
+				FBD7427F262E141500C03198 /* LoginViewPresenter.swift */,
+			);
+			path = LoginScreen;
+			sourceTree = "<group>";
+		};
+		FBD74292262E19DB00C03198 /* BuisnessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				044F1C2826603B8F00343127 /* Managers */,
+				FBD7427D262E13CB00C03198 /* User Interface */,
+			);
+			path = BuisnessLogic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB68973825E6EEAF00D5DED1 /* MMFTimeTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB68974D25E6EEB000D5DED1 /* Build configuration list for PBXNativeTarget "MMFTimeTable" */;
+			buildPhases = (
+				6F2A4221DD9B8C8F5BB8FFA4 /* [CP] Check Pods Manifest.lock */,
+				FB68973525E6EEAF00D5DED1 /* Sources */,
+				FB68973625E6EEAF00D5DED1 /* Frameworks */,
+				FB68973725E6EEAF00D5DED1 /* Resources */,
+				65718047386095458BE2037F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMFTimeTable;
+			productName = MMFTimeTable;
+			productReference = FB68973925E6EEAF00D5DED1 /* MMFTimeTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB68973125E6EEAF00D5DED1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					FB68973825E6EEAF00D5DED1 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FB68973425E6EEAF00D5DED1 /* Build configuration list for PBXProject "MMFTimeTable" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB68973025E6EEAF00D5DED1;
+			productRefGroup = FB68973A25E6EEAF00D5DED1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB68973825E6EEAF00D5DED1 /* MMFTimeTable */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB68973725E6EEAF00D5DED1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB68974925E6EEB000D5DED1 /* LaunchScreen.storyboard in Resources */,
+				0410CDFF2644029600EE5558 /* Localizable.strings in Resources */,
+				FB68974625E6EEB000D5DED1 /* Assets.xcassets in Resources */,
+				FBD7423A262E100500C03198 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65718047386095458BE2037F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MMFTimeTable/Pods-MMFTimeTable-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MMFTimeTable/Pods-MMFTimeTable-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MMFTimeTable/Pods-MMFTimeTable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F2A4221DD9B8C8F5BB8FFA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MMFTimeTable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB68973525E6EEAF00D5DED1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A1C92C2661459700D1E8AB /* FirebaseModel.swift in Sources */,
+				044F1C21266012B700343127 /* TimeTableCollectionCell.swift in Sources */,
+				FB68974125E6EEAF00D5DED1 /* LoginViewController.swift in Sources */,
+				044F1C2A26603BC800343127 /* FireBaseManager.swift in Sources */,
+				043FD77E2664324D00E922C3 /* BroadcastViewController.swift in Sources */,
+				04A1C92F26618EC800D1E8AB /* TimeTableGroupModel.swift in Sources */,
+				FB68973D25E6EEAF00D5DED1 /* AppDelegate.swift in Sources */,
+				FB68973F25E6EEAF00D5DED1 /* SceneDelegate.swift in Sources */,
+				0445A2722644270D00EDF241 /* TimeTableGroupPresenter.swift in Sources */,
+				044F1C27266021A600343127 /* Array + Sugar.swift in Sources */,
+				045ED722265D7FD6000E3F3D /* TimeTableCell.swift in Sources */,
+				043FD7802664326000E922C3 /* BroadcastPresenter.swift in Sources */,
+				0445A2762644271B00EDF241 /* TimeTableGroupViewController.swift in Sources */,
+				FBD74280262E141500C03198 /* LoginViewPresenter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FB68974725E6EEB000D5DED1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB68974825E6EEB000D5DED1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB68974B25E6EEB000D5DED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB68974C25E6EEB000D5DED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB68974E25E6EEB000D5DED1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D806FB9D29EDC42E910C8FE /* Pods-MMFTimeTable.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FS44P45454;
+				INFOPLIST_FILE = MMFTimeTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.MMFTimeTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB68974F25E6EEB000D5DED1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D87A740670CCFB41314760A7 /* Pods-MMFTimeTable.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FS44P45454;
+				INFOPLIST_FILE = MMFTimeTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = k.MMFTimeTable;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB68973425E6EEAF00D5DED1 /* Build configuration list for PBXProject "MMFTimeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB68974B25E6EEB000D5DED1 /* Debug */,
+				FB68974C25E6EEB000D5DED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB68974D25E6EEB000D5DED1 /* Build configuration list for PBXNativeTarget "MMFTimeTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB68974E25E6EEB000D5DED1 /* Debug */,
+				FB68974F25E6EEB000D5DED1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB68973125E6EEAF00D5DED1 /* Project object */;
+}
